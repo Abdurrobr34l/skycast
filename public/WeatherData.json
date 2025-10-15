@@ -1,0 +1,220 @@
+{
+  "cities": {
+    "Dhaka": {
+      "current": {
+        "temp": 30,
+        "description": "Sunny",
+        "humidity": 60,
+        "wind_speed": 5
+      },
+      "hourly": [
+        { "time": "10 AM", "temp": 30, "icon": "☀️" },
+        { "time": "11 AM", "temp": 31, "icon": "☀️" },
+        { "time": "12 PM", "temp": 32, "icon": "🌤️" }
+      ],
+      "daily": [
+        { "day": "Monday", "high": 32, "low": 25, "icon": "☀️" },
+        { "day": "Tuesday", "high": 33, "low": 26, "icon": "🌤️" },
+        { "day": "Wednesday", "high": 31, "low": 24, "icon": "⛅" }
+      ]
+    },
+    "Chattogram": {
+      "current": {
+        "temp": 28,
+        "description": "Cloudy",
+        "humidity": 70,
+        "wind_speed": 6
+      },
+      "hourly": [
+        { "time": "10 AM", "temp": 28, "icon": "☁️" },
+        { "time": "11 AM", "temp": 29, "icon": "☁️" },
+        { "time": "12 PM", "temp": 30, "icon": "🌤️" }
+      ],
+      "daily": [
+        { "day": "Monday", "high": 30, "low": 24, "icon": "🌤️" },
+        { "day": "Tuesday", "high": 31, "low": 25, "icon": "☀️" },
+        { "day": "Wednesday", "high": 29, "low": 23, "icon": "☁️" }
+      ]
+    },
+    "Khulna": {
+      "current": {
+        "temp": 32,
+        "description": "Sunny",
+        "humidity": 50,
+        "wind_speed": 4
+      },
+      "hourly": [
+        { "time": "10 AM", "temp": 32, "icon": "☀️" },
+        { "time": "11 AM", "temp": 33, "icon": "☀️" },
+        { "time": "12 PM", "temp": 34, "icon": "🌤️" }
+      ],
+      "daily": [
+        { "day": "Monday", "high": 34, "low": 28, "icon": "☀️" },
+        { "day": "Tuesday", "high": 35, "low": 29, "icon": "☀️" },
+        { "day": "Wednesday", "high": 33, "low": 27, "icon": "🌤️" }
+      ]
+    },
+    "Rajshahi": {
+      "current": {
+        "temp": 31,
+        "description": "Sunny",
+        "humidity": 55,
+        "wind_speed": 5
+      },
+      "hourly": [
+        { "time": "10 AM", "temp": 31, "icon": "☀️" },
+        { "time": "11 AM", "temp": 32, "icon": "☀️" },
+        { "time": "12 PM", "temp": 33, "icon": "🌤️" }
+      ],
+      "daily": [
+        { "day": "Monday", "high": 33, "low": 26, "icon": "☀️" },
+        { "day": "Tuesday", "high": 34, "low": 27, "icon": "🌤️" },
+        { "day": "Wednesday", "high": 32, "low": 25, "icon": "⛅" }
+      ]
+    },
+    "Sylhet": {
+      "current": {
+        "temp": 29,
+        "description": "Rainy",
+        "humidity": 80,
+        "wind_speed": 7
+      },
+      "hourly": [
+        { "time": "10 AM", "temp": 29, "icon": "🌧️" },
+        { "time": "11 AM", "temp": 30, "icon": "🌦️" },
+        { "time": "12 PM", "temp": 31, "icon": "🌦️" }
+      ],
+      "daily": [
+        { "day": "Monday", "high": 31, "low": 25, "icon": "🌧️" },
+        { "day": "Tuesday", "high": 32, "low": 26, "icon": "🌦️" },
+        { "day": "Wednesday", "high": 30, "low": 24, "icon": "🌤️" }
+      ]
+    },
+    "Barishal": {
+      "current": {
+        "temp": 30,
+        "description": "Sunny",
+        "humidity": 65,
+        "wind_speed": 5
+      },
+      "hourly": [
+        { "time": "10 AM", "temp": 30, "icon": "☀️" },
+        { "time": "11 AM", "temp": 31, "icon": "☀️" },
+        { "time": "12 PM", "temp": 32, "icon": "🌤️" }
+      ],
+      "daily": [
+        { "day": "Monday", "high": 32, "low": 26, "icon": "☀️" },
+        { "day": "Tuesday", "high": 33, "low": 27, "icon": "🌤️" },
+        { "day": "Wednesday", "high": 31, "low": 25, "icon": "⛅" }
+      ]
+    },
+    "Rangpur": {
+      "current": {
+        "temp": 28,
+        "description": "Cloudy",
+        "humidity": 70,
+        "wind_speed": 6
+      },
+      "hourly": [
+        { "time": "10 AM", "temp": 28, "icon": "☁️" },
+        { "time": "11 AM", "temp": 29, "icon": "☁️" },
+        { "time": "12 PM", "temp": 30, "icon": "🌤️" }
+      ],
+      "daily": [
+        { "day": "Monday", "high": 30, "low": 24, "icon": "🌤️" },
+        { "day": "Tuesday", "high": 31, "low": 25, "icon": "☀️" },
+        { "day": "Wednesday", "high": 29, "low": 23, "icon": "☁️" }
+      ]
+    },
+    "Mymensingh": {
+      "current": {
+        "temp": 29,
+        "description": "Sunny",
+        "humidity": 60,
+        "wind_speed": 5
+      },
+      "hourly": [
+        { "time": "10 AM", "temp": 29, "icon": "☀️" },
+        { "time": "11 AM", "temp": 30, "icon": "☀️" },
+        { "time": "12 PM", "temp": 31, "icon": "🌤️" }
+      ],
+      "daily": [
+        { "day": "Monday", "high": 31, "low": 25, "icon": "☀️" },
+        { "day": "Tuesday", "high": 32, "low": 26, "icon": "🌤️" },
+        { "day": "Wednesday", "high": 30, "low": 24, "icon": "⛅" }
+      ]
+    },
+    "Comilla": {
+      "current": {
+        "temp": 30,
+        "description": "Sunny",
+        "humidity": 65,
+        "wind_speed": 5
+      },
+      "hourly": [
+        { "time": "10 AM", "temp": 30, "icon": "☀️" },
+        { "time": "11 AM", "temp": 31, "icon": "☀️" },
+        { "time": "12 PM", "temp": 32, "icon": "🌤️" }
+      ],
+      "daily": [
+        { "day": "Monday", "high": 32, "low": 26, "icon": "☀️" },
+        { "day": "Tuesday", "high": 33, "low": 27, "icon": "🌤️" },
+        { "day": "Wednesday", "high": 31, "low": 25, "icon": "⛅" }
+      ]
+    },
+    "Narayanganj": {
+      "current": {
+        "temp": 31,
+        "description": "Cloudy",
+        "humidity": 68,
+        "wind_speed": 5
+      },
+      "hourly": [
+        { "time": "10 AM", "temp": 31, "icon": "☁️" },
+        { "time": "11 AM", "temp": 32, "icon": "☁️" },
+        { "time": "12 PM", "temp": 33, "icon": "🌤️" }
+      ],
+      "daily": [
+        { "day": "Monday", "high": 33, "low": 27, "icon": "☁️" },
+        { "day": "Tuesday", "high": 34, "low": 28, "icon": "🌤️" },
+        { "day": "Wednesday", "high": 32, "low": 26, "icon": "⛅" }
+      ]
+    },
+    "Bogura": {
+      "current": {
+        "temp": 28,
+        "description": "Rainy",
+        "humidity": 75,
+        "wind_speed": 6
+      },
+      "hourly": [
+        { "time": "10 AM", "temp": 28, "icon": "🌧️" },
+        { "time": "11 AM", "temp": 29, "icon": "🌦️" },
+        { "time": "12 PM", "temp": 30, "icon": "🌦️" }
+      ],
+      "daily": [
+        { "day": "Monday", "high": 30, "low": 24, "icon": "🌧️" },
+        { "day": "Tuesday", "high": 31, "low": 25, "icon": "🌦️" },
+        { "day": "Wednesday", "high": 29, "low": 23, "icon": "☁️" }
+      ]
+    },
+    "Cox's Bazar": {
+      "current": {
+        "temp": 32,
+        "description": "Sunny",
+        "humidity": 55,
+        "wind_speed": 4
+      },
+      "hourly": [
+        { "time": "10 AM", "temp": 32, "icon": "☀️" },
+        { "time": "11 AM", "temp": 33, "icon": "☀️" },
+        { "time": "12 PM", "temp": 34, "icon": "🌤️" }
+      ],
+      "daily": [
+        { "day": "Monday", "high": 34, "low": 28, "icon": "☀️" },
+        { "day": "Tuesday", "high": 35, "low": 29, "icon": "☀️" },
+        { "day": "Wednesday", "high": 33, "low": 27, "icon": "🌤️" }
+      ]
+    }
+  }
+}
