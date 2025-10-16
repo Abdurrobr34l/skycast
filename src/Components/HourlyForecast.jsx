@@ -1,9 +1,21 @@
-import React from 'react';
+import React from "react";
 
-const HourlyForecast = () => {
+const HourlyForecast = ({ hourly }) => {
   return (
-    <div>
-      HourlyForecast
+    <div className="w-full max-w-md mb-6">
+      <h2 className="text-white text-xl font-semibold mb-2">Hourly Forecast</h2>
+      <div className="flex overflow-x-auto gap-4 p-2">
+        {hourly.map((hour, idx) => (
+          <div
+            key={idx}
+            className="glassMorphism flex flex-col items-center justify-center min-w-[80px] p-2 rounded-md"
+          >
+            <span className="text-white">{hour.time}</span>
+            <span className="text-2xl">{hour.icon}</span>
+            <span className="text-white font-semibold">{hour.temp}°</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

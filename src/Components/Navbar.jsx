@@ -99,7 +99,7 @@ const Navbar = () => {
               type="search"
               required
               placeholder="Search city..."
-              className="pl-10 pr-4 py-2 w-40 md:w-60 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-1 focus:ring-[#3b82f6] focus:border-[#3b82f6] transition-all"
+              className="pl-10 pr-4 py-2 w-40 md:w-72 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-1 focus:ring-[#3b82f6] focus:border-[#3b82f6] transition-all"
             />
           </label>
         </div>
