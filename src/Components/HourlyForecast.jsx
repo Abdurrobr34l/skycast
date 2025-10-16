@@ -2,7 +2,7 @@ import React from "react";
 
 const HourlyForecast = ({ hourly }) => {
   return (
-    <div className="w-full max-w-lg 2xl:max-w-[620px]">
+    <div className="w-full max-w-lg md:max-w-2xl lg:max-w-4xl xl:max-w-xl 2xl:max-w-[620px]">
       <h2 className="text-white text-xl font-semibold mb-2">Hourly Forecast</h2>
 
       <div className="flex gap-4 overflow-x-auto p-2">

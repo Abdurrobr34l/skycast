@@ -7,7 +7,7 @@ const WeatherContext = createContext();
 // Provider component
 export const WeatherProvider = ({ children }) => {
   const { weatherData, loading } = useWeather();
-  const [selectedCity, setSelectedCity] = useState("Dhaka"); // default city
+  const [selectedCity, setSelectedCity] = useState("Chattogram");
 
   return (
     <WeatherContext.Provider

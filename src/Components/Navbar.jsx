@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Logo from "../assets/logo.png";
 import { useWeatherContext } from "../context/WeatherContext";
+import { toast } from "react-toastify";
 
 const Navbar = () => {
     const { weatherData, setSelectedCity } = useWeatherContext();
@@ -21,7 +22,7 @@ const Navbar = () => {
       setSelectedCity(foundCity);
       setSearch("");
     } else {
-      alert("City not found!");
+      toast.error("City not found!");
     }
   };
 
@@ -67,7 +68,7 @@ const Navbar = () => {
           </div>
 
           {/* Logo */}
-          <a className="logo flex items-center cursor-pointer group">
+          <a href="/" className="logo flex items-center cursor-pointer group">
             <img src={Logo} alt="Website logo" className="w-10 h-10 md:w-16 md:h-16" />
             <span className="text-lg md:text-2xl font-bold">
               <span className="text-white group-hover:text-[#3b82f6] transition-colors duration-200 ease-linear">

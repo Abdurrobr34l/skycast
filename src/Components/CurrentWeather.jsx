@@ -50,19 +50,19 @@ const CurrentWeather = () => {
       <div className="flex flex-col gap-8 xl:flex-row">
         <div className="glassMorphism relative flex-1 !p-6 !pt-12 text-white">
           <div className="flex items-center justify-between">
-            <h1 className="relative text-5xl font-bold">
+            <h1 className="relative text-xl font-bold md:text-5xl">
               {selectedCity}
               <span className="absolute">{getWeatherIcon(current.description)}</span>
             </h1>
             <div>
-              <h2 className="text-4xl font-semibold text-[#3b82f6]">{current.temp}°C</h2>
+              <h2 className="text-xl font-semibold text-[#3b82f6] md:text-5xl">{current.temp}°C</h2>
               <p className="text-white/70">{current.description}</p>
             </div>
           </div>
 
           <span className="absolute top-0 pt-2 text-[#3b82f6]">{formatDate()}</span>
 
-          <div className="grid grid-cols-2 gap-4 mt-10 md:grid-cols-2">
+          <div className="grid grid-cols-1 gap-4 mt-10 md:grid-cols-2">
             <div className="glassMorphism flex items-center justify-center gap-2 p-2">
               <WiThermometer className="text-2xl text-yellow-400" />
               <div>
