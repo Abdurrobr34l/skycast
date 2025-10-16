@@ -1,5 +1,5 @@
 import React from "react";
-import useWeather from "../Hooks/useWeather";
+import { useWeatherContext } from "../context/WeatherContext";
 import {
   WiDaySunny,
   WiCloud,
@@ -13,26 +13,19 @@ import {
 import HourlyForecast from "./HourlyForecast";
 import DailyForecast from "./DailyForecast";
 
-//* Dynamic Date and Time
 const formatDate = () => {
-  const options = {
-    weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  };
+  const options = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
   return new Date().toLocaleDateString(undefined, options);
 };
 
 const CurrentWeather = () => {
-  const { weatherData, loading } = useWeather();
+  const { weatherData, loading, selectedCity } = useWeatherContext();
 
   if (loading) return <div>Loading...</div>;
+  if (!weatherData[selectedCity]) return <div>No data for "{selectedCity}"</div>;
 
-  const city = "Dhaka";
-  const current = weatherData[city].current;
+  const current = weatherData[selectedCity].current;
 
-  //* Conditonally showing weather related icon
   const getWeatherIcon = (description) => {
     switch (description.toLowerCase()) {
       case "sunny":
@@ -53,33 +46,22 @@ const CurrentWeather = () => {
 
   return (
     <section className="flex flex-col gap-8 mt-8">
-      {/* //* Current Weather and Hourly Forecast*/}
+      {/* Current Weather */}
       <div className="flex flex-col gap-8 xl:flex-row">
-        {/* //? Current Weather */}
         <div className="glassMorphism relative flex-1 !p-6 !pt-12 text-white">
-          {/* //* City Name, Weather Icon, Temperature and Its Description */}
           <div className="flex items-center justify-between">
-            {/* //* City Name and Weather Icon */}
             <h1 className="relative text-5xl font-bold">
-              {city}
-              <span className="absolute">
-                {getWeatherIcon(current.description)}
-              </span>
+              {selectedCity}
+              <span className="absolute">{getWeatherIcon(current.description)}</span>
             </h1>
-
-            {/* //* Temperature and Its Description */}
             <div>
               <h2 className="text-4xl font-semibold text-[#3b82f6]">{current.temp}°C</h2>
               <p className="text-white/70">{current.description}</p>
             </div>
           </div>
 
-          {/* //? Date */}
-          <span className="absolute top-0 pt-2 text-[#3b82f6]">
-            {formatDate()}
-          </span>
+          <span className="absolute top-0 pt-2 text-[#3b82f6]">{formatDate()}</span>
 
-          {/* //? Additional Info's */}
           <div className="grid grid-cols-2 gap-4 mt-10 md:grid-cols-2">
             <div className="glassMorphism flex items-center justify-center gap-2 p-2">
               <WiThermometer className="text-2xl text-yellow-400" />
@@ -115,18 +97,15 @@ const CurrentWeather = () => {
           </div>
         </div>
 
-        {/* //? Hourly Forecast */}
         <div className="flex-1 flex flex-col gap-10">
-          {/* //? Hourly Forecast */}
           <div className="glassMorphism !p-6 text-white">
-            <HourlyForecast hourly={weatherData[city].hourly}></HourlyForecast>
+            <HourlyForecast hourly={weatherData[selectedCity].hourly} />
           </div>
         </div>
       </div>
 
-      {/* //* 7-Day Forecast */}
       <div className="glassMorphism text-white">
-        <DailyForecast daily={weatherData[city].daily}></DailyForecast>
+        <DailyForecast daily={weatherData[selectedCity].daily} />
       </div>
     </section>
   );

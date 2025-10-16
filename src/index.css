@@ -6,7 +6,7 @@
 }
 
 ul li a {
-  @apply text-base font-semibold transition-colors duration-200 hover:text-[#3b82f6] focus:bg-transparent;
+  @apply text-[14px] font-semibold transition-colors duration-200 hover:text-[#3b82f6] focus:bg-transparent;
 }
 
 .font-intern {

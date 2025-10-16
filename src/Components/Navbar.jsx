@@ -1,12 +1,29 @@
-import React from "react";
+import { useState } from "react";
 import Logo from "../assets/logo.png";
+import { useWeatherContext } from "../context/WeatherContext";
 
 const Navbar = () => {
+    const { weatherData, setSelectedCity } = useWeatherContext();
+  const [search, setSearch] = useState("");
+  
   const navigation = [
     { id: 1, path: "/", name: "Home" },
     { id: 2, path: "/about", name: "About" },
     { id: 3, path: "/contact", name: "Contact" },
   ];
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    const foundCity = Object.keys(weatherData).find(
+      (city) => city.toLowerCase() === search.trim().toLowerCase()
+    );
+    if (foundCity) {
+      setSelectedCity(foundCity);
+      setSearch("");
+    } else {
+      alert("City not found!");
+    }
+  };
 
   return (
     <header>
@@ -78,30 +95,34 @@ const Navbar = () => {
 
         {/* Search Box */}
         <div className="navbar-end">
-          <label className="relative flex items-center">
-            {/* Search Icon */}
-            <svg
-              className="absolute left-3 h-5 w-5 text-white/50 pointer-events-none"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <circle cx="11" cy="11" r="8" />
-              <line x1="21" y1="21" x2="16.7" y2="16.7" />
-            </svg>
 
-            {/* Input */}
-            <input
-              type="search"
-              required
-              placeholder="Search city..."
-              className="pl-10 pr-4 py-2 w-40 lg:w-48 xl:w-72 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-1 focus:ring-[#3b82f6] focus:border-[#3b82f6] transition-all"
-            />
-          </label>
+          <form onSubmit={handleSearch}>
+            <label className="relative flex items-center">
+              <svg
+                className="absolute left-3 h-5 w-5 text-white/50 pointer-events-none"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.7" y2="16.7" />
+              </svg>
+
+              <input
+                type="search"
+                required
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder="Search city..."
+                className="pl-10 pr-4 py-2 w-40 lg:w-48 xl:w-72 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-1 focus:ring-[#3b82f6] focus:border-[#3b82f6] transition-all"
+              />
+            </label>
+          </form>
+
         </div>
       </div>
     </header>
