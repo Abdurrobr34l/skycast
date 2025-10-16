@@ -12,7 +12,16 @@
       "hourly": [
         { "time": "10 AM", "temp": 30, "icon": "☀️" },
         { "time": "11 AM", "temp": 31, "icon": "☀️" },
-        { "time": "12 PM", "temp": 32, "icon": "🌤️" }
+        { "time": "12 PM", "temp": 32, "icon": "🌤️" },
+        { "time": "1 PM", "temp": 33, "icon": "🌤️" },
+        { "time": "2 PM", "temp": 34, "icon": "☀️" },
+        { "time": "3 PM", "temp": 34, "icon": "☀️" },
+        { "time": "4 PM", "temp": 33, "icon": "🌤️" },
+        { "time": "5 PM", "temp": 32, "icon": "🌤️" },
+        { "time": "6 PM", "temp": 31, "icon": "⛅" },
+        { "time": "7 PM", "temp": 30, "icon": "⛅" },
+        { "time": "8 PM", "temp": 29, "icon": "🌙" },
+        { "time": "9 PM", "temp": 28, "icon": "🌙" }
       ],
       "daily": [
         { "day": "Monday", "high": 32, "low": 25, "icon": "☀️" },
@@ -36,7 +45,16 @@
       "hourly": [
         { "time": "10 AM", "temp": 28, "icon": "☁️" },
         { "time": "11 AM", "temp": 29, "icon": "☁️" },
-        { "time": "12 PM", "temp": 30, "icon": "🌤️" }
+        { "time": "12 PM", "temp": 30, "icon": "🌤️" },
+        { "time": "1 PM", "temp": 30, "icon": "🌤️" },
+        { "time": "2 PM", "temp": 31, "icon": "☁️" },
+        { "time": "3 PM", "temp": 31, "icon": "☁️" },
+        { "time": "4 PM", "temp": 30, "icon": "🌤️" },
+        { "time": "5 PM", "temp": 29, "icon": "🌤️" },
+        { "time": "6 PM", "temp": 28, "icon": "⛅" },
+        { "time": "7 PM", "temp": 27, "icon": "⛅" },
+        { "time": "8 PM", "temp": 26, "icon": "🌙" },
+        { "time": "9 PM", "temp": 25, "icon": "🌙" }
       ],
       "daily": [
         { "day": "Monday", "high": 30, "low": 24, "icon": "🌤️" },
@@ -60,7 +78,16 @@
       "hourly": [
         { "time": "10 AM", "temp": 32, "icon": "☀️" },
         { "time": "11 AM", "temp": 33, "icon": "☀️" },
-        { "time": "12 PM", "temp": 34, "icon": "🌤️" }
+        { "time": "12 PM", "temp": 34, "icon": "🌤️" },
+        { "time": "1 PM", "temp": 35, "icon": "☀️" },
+        { "time": "2 PM", "temp": 36, "icon": "☀️" },
+        { "time": "3 PM", "temp": 36, "icon": "☀️" },
+        { "time": "4 PM", "temp": 35, "icon": "🌤️" },
+        { "time": "5 PM", "temp": 34, "icon": "🌤️" },
+        { "time": "6 PM", "temp": 33, "icon": "⛅" },
+        { "time": "7 PM", "temp": 32, "icon": "⛅" },
+        { "time": "8 PM", "temp": 31, "icon": "🌙" },
+        { "time": "9 PM", "temp": 30, "icon": "🌙" }
       ],
       "daily": [
         { "day": "Monday", "high": 34, "low": 28, "icon": "☀️" },
@@ -84,7 +111,16 @@
       "hourly": [
         { "time": "10 AM", "temp": 31, "icon": "☀️" },
         { "time": "11 AM", "temp": 32, "icon": "☀️" },
-        { "time": "12 PM", "temp": 33, "icon": "🌤️" }
+        { "time": "12 PM", "temp": 33, "icon": "🌤️" },
+        { "time": "1 PM", "temp": 34, "icon": "☀️" },
+        { "time": "2 PM", "temp": 35, "icon": "☀️" },
+        { "time": "3 PM", "temp": 35, "icon": "☀️" },
+        { "time": "4 PM", "temp": 34, "icon": "🌤️" },
+        { "time": "5 PM", "temp": 33, "icon": "🌤️" },
+        { "time": "6 PM", "temp": 32, "icon": "⛅" },
+        { "time": "7 PM", "temp": 31, "icon": "⛅" },
+        { "time": "8 PM", "temp": 30, "icon": "🌙" },
+        { "time": "9 PM", "temp": 29, "icon": "🌙" }
       ],
       "daily": [
         { "day": "Monday", "high": 33, "low": 26, "icon": "☀️" },
@@ -108,7 +144,16 @@
       "hourly": [
         { "time": "10 AM", "temp": 29, "icon": "🌧️" },
         { "time": "11 AM", "temp": 30, "icon": "🌦️" },
-        { "time": "12 PM", "temp": 31, "icon": "🌦️" }
+        { "time": "12 PM", "temp": 31, "icon": "🌦️" },
+        { "time": "1 PM", "temp": 31, "icon": "🌦️" },
+        { "time": "2 PM", "temp": 30, "icon": "☁️" },
+        { "time": "3 PM", "temp": 30, "icon": "☁️" },
+        { "time": "4 PM", "temp": 29, "icon": "🌦️" },
+        { "time": "5 PM", "temp": 28, "icon": "🌦️" },
+        { "time": "6 PM", "temp": 27, "icon": "🌧️" },
+        { "time": "7 PM", "temp": 27, "icon": "🌧️" },
+        { "time": "8 PM", "temp": 26, "icon": "🌙" },
+        { "time": "9 PM", "temp": 25, "icon": "🌙" }
       ],
       "daily": [
         { "day": "Monday", "high": 31, "low": 25, "icon": "🌧️" },
@@ -132,7 +177,16 @@
       "hourly": [
         { "time": "10 AM", "temp": 30, "icon": "☀️" },
         { "time": "11 AM", "temp": 31, "icon": "☀️" },
-        { "time": "12 PM", "temp": 32, "icon": "🌤️" }
+        { "time": "12 PM", "temp": 32, "icon": "🌤️" },
+        { "time": "1 PM", "temp": 33, "icon": "☀️" },
+        { "time": "2 PM", "temp": 34, "icon": "☀️" },
+        { "time": "3 PM", "temp": 34, "icon": "☀️" },
+        { "time": "4 PM", "temp": 33, "icon": "🌤️" },
+        { "time": "5 PM", "temp": 32, "icon": "🌤️" },
+        { "time": "6 PM", "temp": 31, "icon": "⛅" },
+        { "time": "7 PM", "temp": 30, "icon": "⛅" },
+        { "time": "8 PM", "temp": 29, "icon": "🌙" },
+        { "time": "9 PM", "temp": 28, "icon": "🌙" }
       ],
       "daily": [
         { "day": "Monday", "high": 32, "low": 26, "icon": "☀️" },
@@ -156,7 +210,16 @@
       "hourly": [
         { "time": "10 AM", "temp": 28, "icon": "☁️" },
         { "time": "11 AM", "temp": 29, "icon": "☁️" },
-        { "time": "12 PM", "temp": 30, "icon": "🌤️" }
+        { "time": "12 PM", "temp": 30, "icon": "🌤️" },
+        { "time": "1 PM", "temp": 30, "icon": "🌤️" },
+        { "time": "2 PM", "temp": 31, "icon": "☁️" },
+        { "time": "3 PM", "temp": 31, "icon": "☁️" },
+        { "time": "4 PM", "temp": 30, "icon": "🌤️" },
+        { "time": "5 PM", "temp": 29, "icon": "🌤️" },
+        { "time": "6 PM", "temp": 28, "icon": "⛅" },
+        { "time": "7 PM", "temp": 27, "icon": "⛅" },
+        { "time": "8 PM", "temp": 26, "icon": "🌙" },
+        { "time": "9 PM", "temp": 25, "icon": "🌙" }
       ],
       "daily": [
         { "day": "Monday", "high": 30, "low": 24, "icon": "🌤️" },
@@ -180,7 +243,16 @@
       "hourly": [
         { "time": "10 AM", "temp": 29, "icon": "☀️" },
         { "time": "11 AM", "temp": 30, "icon": "☀️" },
-        { "time": "12 PM", "temp": 31, "icon": "🌤️" }
+        { "time": "12 PM", "temp": 31, "icon": "🌤️" },
+        { "time": "1 PM", "temp": 32, "icon": "☀️" },
+        { "time": "2 PM", "temp": 33, "icon": "☀️" },
+        { "time": "3 PM", "temp": 33, "icon": "☀️" },
+        { "time": "4 PM", "temp": 32, "icon": "🌤️" },
+        { "time": "5 PM", "temp": 31, "icon": "🌤️" },
+        { "time": "6 PM", "temp": 30, "icon": "⛅" },
+        { "time": "7 PM", "temp": 29, "icon": "⛅" },
+        { "time": "8 PM", "temp": 28, "icon": "🌙" },
+        { "time": "9 PM", "temp": 27, "icon": "🌙" }
       ],
       "daily": [
         { "day": "Monday", "high": 31, "low": 25, "icon": "☀️" },
@@ -204,7 +276,16 @@
       "hourly": [
         { "time": "10 AM", "temp": 30, "icon": "☀️" },
         { "time": "11 AM", "temp": 31, "icon": "☀️" },
-        { "time": "12 PM", "temp": 32, "icon": "🌤️" }
+        { "time": "12 PM", "temp": 32, "icon": "🌤️" },
+        { "time": "1 PM", "temp": 33, "icon": "☀️" },
+        { "time": "2 PM", "temp": 34, "icon": "☀️" },
+        { "time": "3 PM", "temp": 34, "icon": "☀️" },
+        { "time": "4 PM", "temp": 33, "icon": "🌤️" },
+        { "time": "5 PM", "temp": 32, "icon": "🌤️" },
+        { "time": "6 PM", "temp": 31, "icon": "⛅" },
+        { "time": "7 PM", "temp": 30, "icon": "⛅" },
+        { "time": "8 PM", "temp": 29, "icon": "🌙" },
+        { "time": "9 PM", "temp": 28, "icon": "🌙" }
       ],
       "daily": [
         { "day": "Monday", "high": 32, "low": 26, "icon": "☀️" },
@@ -228,7 +309,16 @@
       "hourly": [
         { "time": "10 AM", "temp": 31, "icon": "☁️" },
         { "time": "11 AM", "temp": 32, "icon": "☁️" },
-        { "time": "12 PM", "temp": 33, "icon": "🌤️" }
+        { "time": "12 PM", "temp": 33, "icon": "🌤️" },
+        { "time": "1 PM", "temp": 33, "icon": "🌤️" },
+        { "time": "2 PM", "temp": 34, "icon": "☁️" },
+        { "time": "3 PM", "temp": 34, "icon": "☁️" },
+        { "time": "4 PM", "temp": 33, "icon": "🌤️" },
+        { "time": "5 PM", "temp": 32, "icon": "🌤️" },
+        { "time": "6 PM", "temp": 31, "icon": "⛅" },
+        { "time": "7 PM", "temp": 30, "icon": "⛅" },
+        { "time": "8 PM", "temp": 29, "icon": "🌙" },
+        { "time": "9 PM", "temp": 28, "icon": "🌙" }
       ],
       "daily": [
         { "day": "Monday", "high": 33, "low": 27, "icon": "☁️" },
@@ -252,7 +342,16 @@
       "hourly": [
         { "time": "10 AM", "temp": 28, "icon": "🌧️" },
         { "time": "11 AM", "temp": 29, "icon": "🌦️" },
-        { "time": "12 PM", "temp": 30, "icon": "🌦️" }
+        { "time": "12 PM", "temp": 30, "icon": "🌦️" },
+        { "time": "1 PM", "temp": 30, "icon": "🌦️" },
+        { "time": "2 PM", "temp": 31, "icon": "☁️" },
+        { "time": "3 PM", "temp": 31, "icon": "☁️" },
+        { "time": "4 PM", "temp": 30, "icon": "🌦️" },
+        { "time": "5 PM", "temp": 29, "icon": "🌦️" },
+        { "time": "6 PM", "temp": 28, "icon": "🌧️" },
+        { "time": "7 PM", "temp": 27, "icon": "🌧️" },
+        { "time": "8 PM", "temp": 26, "icon": "🌙" },
+        { "time": "9 PM", "temp": 25, "icon": "🌙" }
       ],
       "daily": [
         { "day": "Monday", "high": 30, "low": 24, "icon": "🌧️" },
@@ -276,7 +375,16 @@
       "hourly": [
         { "time": "10 AM", "temp": 32, "icon": "☀️" },
         { "time": "11 AM", "temp": 33, "icon": "☀️" },
-        { "time": "12 PM", "temp": 34, "icon": "🌤️" }
+        { "time": "12 PM", "temp": 34, "icon": "🌤️" },
+        { "time": "1 PM", "temp": 35, "icon": "☀️" },
+        { "time": "2 PM", "temp": 36, "icon": "☀️" },
+        { "time": "3 PM", "temp": 36, "icon": "☀️" },
+        { "time": "4 PM", "temp": 35, "icon": "🌤️" },
+        { "time": "5 PM", "temp": 34, "icon": "🌤️" },
+        { "time": "6 PM", "temp": 33, "icon": "⛅" },
+        { "time": "7 PM", "temp": 32, "icon": "⛅" },
+        { "time": "8 PM", "temp": 31, "icon": "🌙" },
+        { "time": "9 PM", "temp": 30, "icon": "🌙" }
       ],
       "daily": [
         { "day": "Monday", "high": 34, "low": 28, "icon": "☀️" },
