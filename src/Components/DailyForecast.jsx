@@ -2,13 +2,14 @@ import React from "react";
 
 const DailyForecast = ({ daily }) => {
   return (
-    <div className="w-full max-w-md">
-      <h2 className="text-white text-xl font-semibold mb-2">7-Day Forecast</h2>
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
+    <div className="w-full">
+      <h2 className="text-white text-xl font-semibold">7-Day Forecast</h2>
+      
+      <div className="flex gap-4 overflow-x-auto p-2">
         {daily.map((day, idx) => (
           <div
             key={idx}
-            className="glassMorphism flex flex-col items-center p-4 rounded-md"
+            className="glassMorphism flex-shrink-0 flex flex-col items-center justify-center p-4 min-w-[250px] rounded-md"
           >
             <span className="text-white font-medium">{day.day}</span>
             <span className="text-2xl">{day.icon}</span>

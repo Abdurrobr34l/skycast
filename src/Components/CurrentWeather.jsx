@@ -11,6 +11,7 @@ import {
   WiHumidity,
 } from "react-icons/wi";
 import HourlyForecast from "./HourlyForecast";
+import DailyForecast from "./DailyForecast";
 
 //* Dynamic Date and Time
 const formatDate = () => {
@@ -51,9 +52,10 @@ const CurrentWeather = () => {
   };
 
   return (
-    <section className="mt-[60px]">
-      <div className="flex gap-10">
-        {/* //* Current Weather */}
+    <section className="flex flex-col gap-8 mt-8">
+      {/* //* Current Weather and Hourly Forecast*/}
+      <div className="flex gap-8">
+        {/* //? Current Weather */}
         <div className="glassMorphism relative flex-1 !p-6 !pt-12 text-white">
           {/* //? City Name, Weather Icon, Temperature and Its Description */}
           <div className="flex items-center justify-between">
@@ -113,16 +115,18 @@ const CurrentWeather = () => {
           </div>
         </div>
 
-        {/* //* Hourly Forecast & 7-Day Forecast */}
+        {/* //? Hourly Forecast */}
         <div className="flex-1 flex flex-col gap-10">
           {/* //? Hourly Forecast */}
           <div className="glassMorphism text-white">
             <HourlyForecast hourly={weatherData[city].hourly}></HourlyForecast>
           </div>
-
-          {/* //? 7-Day Forecast */}
-          <div className="glassMorphism text-white">sdads</div>
         </div>
+      </div>
+
+      {/* //* 7-Day Forecast */}
+      <div className="glassMorphism text-white">
+        <DailyForecast daily={weatherData[city].daily}></DailyForecast>
       </div>
     </section>
   );
