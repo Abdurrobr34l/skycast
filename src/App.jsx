@@ -1,10 +1,12 @@
 import React from 'react';
+import Container from './Components/Container';
+import Navbar from './Components/Navbar';
 
 const App = () => {
   return (
-    <div>
-      <img src="../src/assets/logo-2.png" alt="" />
-    </div>
+    <Container>
+      <Navbar></Navbar>
+    </Container>
   );
 };
 

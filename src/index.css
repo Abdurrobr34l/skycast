@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.glassMorphism {
+  @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-md p-4 shadow-md;
+}
+
+ul li a {
+  @apply text-base font-semibold transition-colors duration-200 hover:text-[#3b82f6] focus:bg-transparent;
+}
