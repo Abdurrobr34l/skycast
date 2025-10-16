@@ -5,7 +5,7 @@ const useWeather = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/mockWeather.json")
+    fetch("/WeatherData.json")
       .then((res) => res.json())
       .then((data) => {
         setWeatherData(data.cities);
