@@ -6,7 +6,7 @@ SkyCast is a modern, responsive weather web application built with **React** and
 
 ## Live Link
 
-*(You can add a deployed link here if hosted on Netlify, Vercel, or GitHub Pages)*
+https://skycast-4pp.netlify.app/
 
 ---
 
