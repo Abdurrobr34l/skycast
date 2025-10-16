@@ -9,7 +9,7 @@ const DailyForecast = ({ daily }) => {
         {daily.map((day, idx) => (
           <div
             key={idx}
-            className="glassMorphism flex-shrink-0 flex flex-col items-center justify-center p-4 min-w-[250px] rounded-md"
+            className="glassMorphism flex-shrink-0 flex flex-col items-center justify-center p-4 mb-3 min-w-[250px] rounded-md"
           >
             <span className="text-white font-medium">{day.day}</span>
             <span className="text-2xl">{day.icon}</span>

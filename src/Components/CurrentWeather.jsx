@@ -54,10 +54,10 @@ const CurrentWeather = () => {
   return (
     <section className="flex flex-col gap-8 mt-8">
       {/* //* Current Weather and Hourly Forecast*/}
-      <div className="flex gap-8">
+      <div className="flex flex-col gap-8 xl:flex-row">
         {/* //? Current Weather */}
         <div className="glassMorphism relative flex-1 !p-6 !pt-12 text-white">
-          {/* //? City Name, Weather Icon, Temperature and Its Description */}
+          {/* //* City Name, Weather Icon, Temperature and Its Description */}
           <div className="flex items-center justify-between">
             {/* //* City Name and Weather Icon */}
             <h1 className="relative text-5xl font-bold">
@@ -69,7 +69,7 @@ const CurrentWeather = () => {
 
             {/* //* Temperature and Its Description */}
             <div>
-              <h2 className="text-4xl font-semibold">{current.temp}°C</h2>
+              <h2 className="text-4xl font-semibold text-[#3b82f6]">{current.temp}°C</h2>
               <p className="text-white/70">{current.description}</p>
             </div>
           </div>
@@ -118,7 +118,7 @@ const CurrentWeather = () => {
         {/* //? Hourly Forecast */}
         <div className="flex-1 flex flex-col gap-10">
           {/* //? Hourly Forecast */}
-          <div className="glassMorphism text-white">
+          <div className="glassMorphism !p-6 text-white">
             <HourlyForecast hourly={weatherData[city].hourly}></HourlyForecast>
           </div>
         </div>

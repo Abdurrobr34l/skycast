@@ -67,8 +67,8 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal gap-6">
             {navigation.map(({ id, path, name }) => (
-              <li>
-                <a key={id} href={path}>
+              <li key={id}>
+                <a href={path}>
                   {name}
                 </a>
               </li>
@@ -99,7 +99,7 @@ const Navbar = () => {
               type="search"
               required
               placeholder="Search city..."
-              className="pl-10 pr-4 py-2 w-40 md:w-72 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-1 focus:ring-[#3b82f6] focus:border-[#3b82f6] transition-all"
+              className="pl-10 pr-4 py-2 w-40 lg:w-48 xl:w-72 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-1 focus:ring-[#3b82f6] focus:border-[#3b82f6] transition-all"
             />
           </label>
         </div>
